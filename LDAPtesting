@@ -1,0 +1,4 @@
+nmap --script ldap-search.nse <target ip>
+smbclient -L <target ip> -U <user> --pw-nt-hash  <-- if you have the nt-hashed password
+enum4linux -a -u <user> -p <password> <target ip> <-- didn't work as well as nmap -a does all tests.
+Learn more about ssh in to a system....
