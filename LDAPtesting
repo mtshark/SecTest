@@ -1,5 +1,5 @@
 find / -perm -4000 -exec ls -al {} +
-smbclient -L <target ip> -U <user> --pw-nt-hash  <-- if you have the nt-hashed password
+
 enum4linux -a -u <user> -p <password> <target ip> <-- didn't work as well as nmap -a does all tests.
 Learn more about ssh in to a system....
 
@@ -8,9 +8,20 @@ Nmap scans:
 zenmap slow comprehensive scan: nmap -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 -PU40125 -PY -g 53 --script "default or (discovery and safe)" <target>
 nmap --script ldap-search.nse <target ip>  <-- ldap search
 
+SMBclient:
+smbclient -L <target ip> -U <user> --pw-nt-hash  <-- if you have the nt-hashed password
+smbclient \\\\<target IP>\\<target directory> -U <taget User> --pw-nt-hash <-- if you have the nt-hashed password
+(get to exfil)
+
+Putty Key:
+apt-get install putty-tools <-- if needed
+puttygen <the_key.ppk> -O private-openssh -o <new_key_name>.key
+
+SSH login 
+ssh <user>@<host> -i <private key file>
+
 Priv Esc
 getcap -r / 2>/dev/null  <-- https://nxnjz.net/2018/08/an-interesting-privilege-escalation-vector-getcap/
-
 
 Escape restricted shell
 https://fireshellsecurity.team/restricted-linux-shell-escaping-techniques/
