@@ -20,6 +20,9 @@ puttygen <the_key.ppk> -O private-openssh -o <new_key_name>.key
 SSH login 
 ssh <user>@<host> -i <private key file>
 
+scp
+scp -i <key file> <file to transfer> <target e.g. alice1978@10.10.10.107:/tmp/mtschark>
+
 Priv Esc
 getcap -r / 2>/dev/null  <-- https://nxnjz.net/2018/08/an-interesting-privilege-escalation-vector-getcap/
 
